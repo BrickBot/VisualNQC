@@ -4,9 +4,18 @@
 This has personally been one of the more intriguing software finds for the RCX.
 
 Only one release and version of the source code were posted to the original [SourceForge project site](http://funsoftware.sourceforge.net/).
-Over the intervening period before republishing here, I have updated the project follows, but these updates never saw any response upstream.
+Over the intervening period before republishing here, I have updated the project follows, but these updates never saw any action upstream.
 The earliest patches were posted to SourceForge [here](https://sourceforge.net/p/funsoftware/patches/1/).
 
+This software was originally created by students at the
+[University of New South Wales School of Computer Science and Engineering](http://www.cse.unsw.edu.au/).
+ - Initiated by Dr Eric Martin
+ - Developed by Thomas Legowo
+ - Graphic design by Geoffrey Roberts
+
+The original SourceForge website is accessible at http://funsoftware.sourceforge.net/
+
+Patched by Matthew Sheets
 In particular, these modifications include the following:
 * Fixed bug preventing creation of arithmetic conditions (branch, loop) inside global event monitors
 * Enabled use of non-USB IR towers by checking the RCXTTY environment variable before defaulting to USB
