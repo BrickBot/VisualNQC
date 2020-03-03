@@ -3,9 +3,8 @@
 
 This has personally been one of the more intriguing software finds for the RCX.
 
-Only one release and version of the source code were posted to the original [SourceForge project site](http://funsoftware.sourceforge.net/).
-Over the intervening period before republishing here, I have updated the project follows, but these updates never saw any action upstream.
-The earliest patches were posted to SourceForge [here](https://sourceforge.net/p/funsoftware/patches/1/).
+On the original SourceForge project website <http://funsoftware.sourceforge.net/>,
+only one release and one version of the source code were posted.
 
 This software was originally created by students at the
 [University of New South Wales School of Computer Science and Engineering](http://www.cse.unsw.edu.au/).
@@ -13,10 +12,10 @@ This software was originally created by students at the
  - Developed by Thomas Legowo
  - Graphic design by Geoffrey Roberts
 
-The original SourceForge website is accessible at http://funsoftware.sourceforge.net/
+Several updates were posted but never saw any action upstream.
+* https://sourceforge.net/p/funsoftware/patches/1/
 
-Patched by Matthew Sheets
-In particular, these modifications include the following:
+Patches by Matthew Sheets include the following modifications in particular:
 * Fixed bug preventing creation of arithmetic conditions (branch, loop) inside global event monitors
 * Enabled use of non-USB IR towers by checking the RCXTTY environment variable before defaulting to USB
 * Changed default file writes (e.g. config.txt, intermediate NQC code file) to occur under the user's directory to resolve permissions issues
@@ -96,10 +95,12 @@ them where appropriate. fUNSoftWare might generate some error messages throughou
 process if you attempt to execute an illegal operation. One of the great features of fUNSoftWare
 is that all the wiring is done automatically. Whether you want to insert or delete icons, the necessary
 wires that link the icon you are working on with the surrounding icons will be created or 
-deleted automatically. 
+deleted automatically.
+
 2. After you are satisfied with the program, you will need to compile it. The result 
 of the compilation is an NQC (Not Quite C) text code that is guaranteed to run (though
 maybe not as you want it to run!) on the LEGO robot.
+
 3. The robot might not perform the task you wanted because you inserted icons that do not perform
 their intended operations. You will then need to edit the program and repeat processes 2 
 and 3 until everything works as you originally had in mind.
@@ -125,11 +126,11 @@ There are three types of icons:
    does not affect the rest of the program.
 
 Following is a schematic representation of two "single" icons strung next to each other:
-
+```
 ----       ----
 |  |------|  |
 ----       ----
-
+```
 
 2. Branches
    An icon of this type determines one out of two possible paths that the program takes 
@@ -137,7 +138,7 @@ Following is a schematic representation of two "single" icons strung next to eac
    arithmetic expression) is met.
 
 Following is a schematic representation of a "branch" icon:
-     
+``` 
      |---
      |
 ----|
@@ -145,6 +146,7 @@ Following is a schematic representation of a "branch" icon:
 ----|
      |
      |---
+```
 
 3. Loops
    An icon of this type decides whether or not to repeat a designated sequence of icons 
@@ -152,12 +154,12 @@ Following is a schematic representation of a "branch" icon:
    arithmetic expression) is met.
 
 Following is a schematic representation of a "loop" icon:
-
+```
       |                      |
       |         ----        |
       |-------|  |-------|
                 ----
-
+```
 
 -->> 3.2 Icon insertion
 ================
@@ -413,9 +415,9 @@ Mindstorms and LEGO are trademarks of the LEGO Group
 NQC is a free software released under the Mozilla Public License (MPL).
 
 fUNSoftWare development team:
-Eric Martin --> Supervisor
-Thomas Legowo --> Programmer
-Geoffrey Roberts --> Graphic Designer
+* Eric Martin --> Supervisor
+* Thomas Legowo --> Programmer
+* Geoffrey Roberts --> Graphic Designer
 
 fUNSoftWare is released under the University of New South Wales School of Computer Science 
 and Engineering.
