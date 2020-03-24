@@ -3,7 +3,7 @@
 
 This has personally been one of the more intriguing software finds for the RCX.
 
-On the original SourceForge project website <http://funsoftware.sourceforge.net/>,
+On the original SourceForge project website <http://funsoftware.sf.net/>,
 only one release and one version of the source code were posted.
 
 This software was originally created by students at the
@@ -13,7 +13,7 @@ This software was originally created by students at the
  - Graphic design by Geoffrey Roberts
 
 Several updates were posted but never saw any action upstream.
-* https://sourceforge.net/p/funsoftware/patches/1/
+* https://sf.net/p/funsoftware/patches/1/
 
 Patches by Matthew Sheets include the following modifications in particular:
 * Fixed bug preventing creation of arithmetic conditions (branch, loop) inside global event monitors
