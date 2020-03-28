@@ -1,4 +1,4 @@
-# VisualNQC
+# VisualNQC  ![VisualNQC CI](https://github.com/BrickBot/VisualNQC/workflows/VisualNQC%20CI/badge.svg)
  An iconic language tool for the Lego MindStorms RCX, which generates NQC code.  Support is included to facilitate integrating the NQC compilation and deployment processes.  (This project was formerly known as fUNSoftWare.)
 
 This has personally been one of the more intriguing software finds for the RCX.
