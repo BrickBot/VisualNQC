@@ -23,7 +23,7 @@ public class lightSensorLoopIcon extends loopIcon{
     private int light_sensor_value;   // default value being 55, minimum is 1 and maximum is 100
     private variable var_light_sensor_value;  // alternative to light_sensor_value
     
-    private int type;  // if type = 1 it means "greater than"
+    private int type;  // default = 0 means "less than", if type = 1 it means "greater than"
     
     // for algorithm representation, represent a loop light sensor icon with an identifier of 2
     private int identifier;
@@ -80,7 +80,7 @@ public class lightSensorLoopIcon extends loopIcon{
     
     /**
      * Returns the type whether it is greater than or less than
-     * @return Comparison type (< or >)
+     * @return Comparison type (0 if less than; 1 if greater than)
      */
     public int getType()
     {

@@ -192,7 +192,7 @@ public class motorIcon extends objectIcon{
     }
    
     /**
-     * To set the images of this icon (for move motor icon there are 5 elements --> direction, power level and output ports)
+     * To set the images of this icon (for move motor icon there are 3 elements: direction, power level, and output ports)
      */
     public void setImage()
     {

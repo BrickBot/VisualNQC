@@ -22,7 +22,7 @@ public class celciusSensorLoopIcon extends loopIcon {
     private int port;          // with default value being 1, port is the value of the input port of this temperature sensor
     private int temperature;   // default value being 30
     private variable var_temperature;  // alternative to temperature
-    private int type;  // if type = 1 it means "greater than"
+    private int type;  // default = 0 means "less than", if type = 1 it means "greater than"
     
     // for algorithm representation, this celcius sensor loop icon has an identifier of 5
     private int identifier;
@@ -79,7 +79,7 @@ public class celciusSensorLoopIcon extends loopIcon {
     
     /**
      * Returns the type whether it is greater than or less than
-     * @return Comparison type (< or >)
+     * @return Comparison type (0 if less than; 1 if greater than)
      */
     public int getType()
     {

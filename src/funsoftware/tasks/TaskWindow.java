@@ -40,6 +40,7 @@ public class TaskWindow extends javax.swing.JPanel implements java.awt.event.Act
      * @param jf The frame
      * @param jPanel13 Panel on top of programming window
      * @param njDirectionsLabel Real time direction palette
+	 * @param varw The window
      * @param evw The event window
      */
     public TaskWindow(javax.swing.JFrame jf, javax.swing.JPanel jPanel13,
@@ -71,7 +72,7 @@ public class TaskWindow extends javax.swing.JPanel implements java.awt.event.Act
     }
     
     /**
-     * Reset this window, occurs if user wanna start fresh, e.g. from the menu bar, File --> New
+     * Reset this window, occurs if user wanna start fresh, e.g. from the menu bar, File → New
      */
     public void reset()
     {

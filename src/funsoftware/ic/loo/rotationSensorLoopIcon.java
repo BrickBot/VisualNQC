@@ -80,7 +80,7 @@ public class rotationSensorLoopIcon extends loopIcon {
     
     /**
      * Returns the type whether it is greater than or less than
-     * @return Comparison type (< or >)
+     * @return Comparison type (0 if less than; 1 if greater than)
      */
     public int getType()
     {

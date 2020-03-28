@@ -8,7 +8,7 @@
 package funsoftware.pallette;
 
 /**
- * This class cater for the pallette holding the singles icons --> motor, lamp, timer, etc etc
+ * This class cater for the pallette holding the singles icons: motor, lamp, timer, etc.
  * @author Thomas Legowo
  */
 public class objectWindow extends javax.swing.JPanel {

@@ -1497,7 +1497,7 @@ public class ProgWindow extends javax.swing.JPanel implements java.awt.event.Mou
      * Finds out how many of the segments enclosed within a branch or a repeat are free to be used
      * This function will only be needed by a branch not a loop and nothing else
      * @param icon Icon
-     * @param type Type = 0 -> the top part (if) type = 1 -> the bottom part (else)
+     * @param type Type = 0 for the top part (if); type = 1 for the bottom part (else)
      * @return Number of free segments
      */
     public int getFreeSegment(Icon icon, int type)

@@ -74,7 +74,7 @@ public class FunctionWindow extends javax.swing.JPanel implements java.awt.event
     }
     
     /**
-     * Reset this window, occurs if user wanna start fresh, e.g. from the menu bar, File --> New
+     * Reset this window, occurs if user wanna start fresh, e.g. from the menu bar, File → New
      */
     public void reset()
     {

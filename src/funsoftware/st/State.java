@@ -9,7 +9,7 @@ package funsoftware.st;
 
 /**
  * This class maintains a state (or states) of a set of icons and wires on the programming window
- * Used for --> Memento design patterns (Undo and Redo) and deciding whether a file has been saved
+ * Used for Memento design patterns (Undo and Redo) and deciding whether a file has been saved
  * @author Thomas Legowo
  * 
  */

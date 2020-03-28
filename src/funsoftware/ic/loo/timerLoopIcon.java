@@ -22,7 +22,7 @@ public class timerLoopIcon extends loopIcon {
     private int timer_number;  // with default value being 0, can be between 0 and 3
     private int timer_value;   // default value being 50, minimum is 1, unit is in 100ms.
     private variable var_timer_value;  // alternative to timer_value
-    private int type;  // if type = 1 it means "greater than"
+    private int type;  // default = 0 means "less than", if type = 1 it means "greater than"
     
     // for algorithm representation, this timer loop icon has an identifier of 4
     private int identifier;
@@ -79,7 +79,7 @@ public class timerLoopIcon extends loopIcon {
     
     /**
      * Returns the type whether it is greater than or less than
-     * @return Comparison type (< or >)
+     * @return Comparison type (0 if less than; 1 if greater than)
      */
     public int getType()
     {

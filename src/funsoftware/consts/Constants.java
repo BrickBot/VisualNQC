@@ -50,7 +50,7 @@ public class Constants {
     public static int scrollbarWidth = ((Integer)javax.swing.UIManager.get("ScrollBar.width")).intValue();
         
     /**
-     * The lookup table for fUNSoftWare's music icon (playSpecificNote) --> Note and octave = frequency
+     * The lookup table for the music icon (playSpecificNote):  Note and octave = frequency
      */
     public static int[][] frequencies = {{  33,   35,   37,   39,   41,   44,   46,   49,   52,   55,   58,   62},
                                          {  65,   69,   73,   78,   82,   87,   92,   98,  104,  110,  117,  123},
@@ -91,8 +91,7 @@ public class Constants {
     
     /**
      * To get the status of the grid lines
-     *  0 = Hide grid lines
-     *  1 = Show grid lines
+	 * @return 0 = Hide grid lines; 1 = Show grid lines
      */
     public static int getGridStatus()
     {
@@ -101,8 +100,7 @@ public class Constants {
     
     /**
      * To set the status of the grid lines
-     *  0 = Hide grid lines
-     *  1 = Show grid lines
+	 * @param status 0 = Hide grid lines; 1 = Show grid lines
      */
     public static void setGridStatus(int status)
     {

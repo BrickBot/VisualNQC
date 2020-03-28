@@ -287,7 +287,7 @@ public class branchIcon extends Icon{
     /**
      * Determines whether an icon is in the if part of else part of this branch
      * @param icon Icon
-     * @return Value = 0 -> icon in if part, Value = 1 -> icon in else part
+     * @return Value = 0 means icon in if part; Value = 1 means icon in else part
      */
     public int determineMember(Icon icon)
     {

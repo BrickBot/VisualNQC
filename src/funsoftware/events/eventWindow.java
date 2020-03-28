@@ -64,7 +64,7 @@ public class eventWindow extends javax.swing.JPanel{
     }
     
     /**
-     * Reset this window, occurs if user wanna start fresh, e.g. from the menu bar, File --> New
+     * Reset this window, occurs if user wanna start fresh, e.g. from the menu bar, File → New
      */
     public void reset()
     {
